@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Welcome to My drink menu";
+}
+
+<h2>Please choose which option you would like to choose</h2>
+<ul>
+    @foreach (string options in ViewBag.Options)
+    {
+        <li>@options</li>
+    }
+</ul>
+
